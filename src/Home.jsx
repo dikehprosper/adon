@@ -166,6 +166,11 @@ boxShadow: "0 0 20px rgba(255, 122, 69, 0.15), 0 0 20px rgba(255, 122, 69, 0.15)
     opacity: 0.6,
     transition: "opacity 0.15s ease",
   },
+   socialLink2: {
+
+    opacity: 0.9,
+    transition: "opacity 0.15s ease",
+  },
    photoWrap2: {
     position: "relative",
     zIndex: 1,
@@ -308,7 +313,7 @@ export default function Home() {
 
 
         <p style={styles.tagline}>
-        A symbol of unwavering conviction. Follow the light
+       A symbol of unwavering conviction. Follow the light 💡
         </p>
 </div>
 
@@ -343,18 +348,37 @@ export default function Home() {
               />
             </svg>
           </a>
-              <a href="/#" style={styles.photoWrap2} className="adon-photo">
+              <a href="https://t.me/adonmemes" style={styles.photoWrap2} className="adon-photo">
           <img
             src={`data:image/jpeg;base64,${CAT_B64}`}
             alt="ADON"
             style={styles.photo}
           />
         </a>
+       <a
+  href="https://dexscreener.com/solana/AxJnUDRBnVV9t4hM4gBf12yh7CzYV1xdEFvmByTaa6DD"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="DexScreener"
+  style={styles.socialLink2}
+  className="adon-social"
+>
+  <img
+    src="/adons.png"
+    alt="DexScreener"
+    style={{
+      width: 20,
+      height: 20,
+      display: "block",
+      objectFit: "cover",
+    }}
+  />
+</a>
 
         </div>
 
         <p style={styles.disclaimer}>
-          $ADON is a community memecoin with no intrinsic value. Not financial advice. DYOR.
+
         </p>
       </div>
 
