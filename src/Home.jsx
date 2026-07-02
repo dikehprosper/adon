@@ -343,17 +343,6 @@ export default function Home() {
               />
             </svg>
           </a>
-          <a href="https://t.me/adoncto" title="Telegram" style={styles.socialLink} className="adon-social">
-            <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
-              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
-              <path
-                d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"
-                stroke="currentColor"
-                strokeWidth="1.6"
-                strokeLinecap="round"
-              />
-            </svg>
-          </a>
               <a href="/#" style={styles.photoWrap2} className="adon-photo">
           <img
             src={`data:image/jpeg;base64,${CAT_B64}`}
