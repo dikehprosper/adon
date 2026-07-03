@@ -60,7 +60,7 @@ function Lore() {
               textShadow: "0 0 20px rgba(255,122,69,0.5)",
             }}
           >
-            Raise your paws. Hold your conviction. Follow the light.
+            Raise your paws. Hold your conviction. Follow the light. 💡
           </span>
         </p>
       </div>
