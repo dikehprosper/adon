@@ -329,7 +329,7 @@ export default function Home() {
         </a>
 
         <div style={styles.socialsRow}>
-          <a href="https://x.com/adoncat_?s=11" title="X / Twitter" style={styles.socialLink} className="adon-social">
+          <a href="https://x.com/adon_cto?s=11" title="X / Twitter" style={styles.socialLink} className="adon-social">
             <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
               <path
                 d="M22 5.5c-.7.3-1.5.6-2.3.7a4 4 0 0 0 1.8-2.2 8 8 0 0 1-2.5 1 4 4 0 0 0-6.9 3.6A11.4 11.4 0 0 1 3.7 4.1a4 4 0 0 0 1.2 5.3 4 4 0 0 1-1.8-.5v.1a4 4 0 0 0 3.2 3.9 4 4 0 0 1-1.8.1 4 4 0 0 0 3.7 2.8A8 8 0 0 1 2 17.5a11.4 11.4 0 0 0 6.2 1.8c7.4 0 11.5-6.1 11.5-11.5v-.5A8 8 0 0 0 22 5.5Z"
